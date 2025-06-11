@@ -1,3 +1,4 @@
+![Amipyq Logo](assets/amipyq-logo.png)
 # 📚 amiPYQ – Your Ultimate College PYQ Archive for Amity University
 
 Welcome to **Amipyq**, the go-to platform for Amity University students to easily access 
