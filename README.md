@@ -1,7 +1,7 @@
 ![Amipyq Logo](assets/logo.png)
-# 📚 amiPYQ – Your Ultimate College PYQ Archive for Amity University
+# 📚 AmiPYQ – Your Ultimate College PYQ Archive for Amity University
 
-Welcome to **Amipyq**, the go-to platform for Amity University students to easily access 
+Welcome to **AmiPYQ**, the go-to platform for Amity University students to easily access 
 and contribute previous year question papers (PYQs) from 2014 to the present. Designed with 
 simplicity and community spirit, Amipyq helps every student prepare effectively and excel in their exams.
 
