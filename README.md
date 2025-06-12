@@ -18,3 +18,5 @@ simplicity and community spirit, Amipyq helps every student prepare effectively 
 
 ---
 
+## 📱 Contact
+-📩 If you’d like to contribute, share PYQs, or collaborate — feel free to email at amipyq@gmail.com
