@@ -1,43 +1,71 @@
-📜 Code of Conduct
-Welcome to AmiPYQ – an open-source initiative to help students by sharing previous year question papers.
 
-We believe in building a collaborative, respectful, and inclusive environment for all contributors. This Code of Conduct outlines the expected behavior and how we handle misconduct.
+---
 
-✅ Our Pledge
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to:
+# 📜 AmiPYQ Code of Conduct
 
-Be respectful, kind, and constructive
+> 💙 Creating a helpful, respectful, and inclusive space — together.
 
-Use inclusive and non-discriminatory language
+Hey awesome contributor! 👋
+Whether you're uploading question papers, writing code, reporting bugs, or sharing ideas — you're a part of something amazing. To keep things fun, fair, and productive, we’ve set a few ground rules.
 
-Welcome different viewpoints and experiences
+---
 
-Accept constructive criticism graciously
+## 🤝 Our Pledge
 
-Contribute to a positive and supportive community
+We’re building **AmiPYQ** as a safe and welcoming place for **everyone**, regardless of background, gender, campus, skills, or semester.
 
-🚫 Unacceptable Behavior
-We do not tolerate:
+As contributors and maintainers, we promise to:
 
-Harassment, abuse, or discrimination of any kind
+* Be **respectful**, **friendly**, and **supportive**
+* Welcome all ideas, suggestions, and feedback
+* Encourage beginner-friendly contributions
+* Give helpful, constructive responses — no negativity here!
+* Make sure no one feels left out or unheard
 
-Personal attacks or insults
+---
 
-Posting sexually explicit or violent content
+## 🚫 Not Cool (Unacceptable Behavior)
 
-Sharing false or harmful information
+Let’s keep this space positive. We do **not** tolerate:
 
-Spamming or misusing the platform (e.g. uploading irrelevant files)
+* Harassment, bullying, or personal attacks
+* Hate speech, racism, or discrimination of any kind
+* Sharing misleading, harmful, or copyrighted content
+* Uploading irrelevant or low-quality files
+* Spamming or self-promotion without purpose
 
-Violating privacy or intellectual property rights
+We’re all here to help each other — let’s not make it harder.
 
-🛠️ Reporting Issues
-If you experience or witness unacceptable behavior, please report it by emailing us at amipyq@gmail.com (or another contact method, if you prefer).
+---
 
-Reports will be handled confidentially and appropriately.
+## 🛡️ Reporting a Problem?
 
-🧑‍⚖️ Enforcement
-Project maintainers have the right and responsibility to remove, edit, or reject contributions, comments, commits, or other interactions that violate this Code of Conduct. Repeated or severe violations may lead to a ban from participation.
+See something that’s not okay? Or did someone cross a line?
 
-🙌 Let’s Build a Positive Space
-By contributing to AmiPYQ, you agree to follow this Code of Conduct and help us build a valuable resource for all students.
+📩 Please reach out to us at **[amipyq@gmail.com](mailto:amipyq@gmail.com)**
+All reports are confidential, and we take them seriously.
+
+---
+
+## ⚙️ What Happens Next?
+
+Project maintainers can:
+
+* Warn or mute users
+* Remove inappropriate content
+* Ban repeat or severe offenders
+
+We're not here to police — but to protect a healthy vibe for all contributors.
+
+---
+
+## 🙌 Let’s Keep AmiPYQ Awesome
+
+We’re students helping students.
+We grow by lifting each other up — so let’s be kind, clear, and cool.
+
+By participating in AmiPYQ, you agree to this Code of Conduct.
+
+> 👩‍🎓👨‍🎓 Let’s make open source a place where *everyone* feels at home.
+
+---
