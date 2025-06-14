@@ -1,3 +1,4 @@
+![Contriute](assets/contribution.png)
 🤝 Contributing to AmiPYQ
 Thank you for showing interest in contributing to AmiPYQ! We're building a helpful platform for students to access previous year question papers — and your contributions can make a real difference.
 
