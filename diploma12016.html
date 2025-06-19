@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" light-mode="dark">
+
+<head>
+    <title>AmiPYQ | Diploma</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="free portfolio template,portfolio template, portfolio website template, open source, open sourcing, contributing to open source" />
+    <meta name="description" content="This project serves free and beautiful portfolio template for everyone. Anyone can showcase their work including moocs, education, projects, experience,etc. to the world." />
+    <!-- Robot.txt -->
+    <meta name="robots" content="index,follow" />
+    <meta name="Googlebot" content="index,follow" />
+    <meta name="AdsBot-Google" content="index,follow" />
+    <meta property="og:site_name" content="https://portfolio.smaranjitghose.codes/">
+    <meta property="og:title" content="AmiPYQ | Home">
+    <meta property="og:description" content="This project serves free and beautiful portfolio template for everyone. Anyone can showcase their work including moocs, education, projects, experience,etc. to the world.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://portfolio.smaranjitghose.codes/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://portfolio.smaranjitghose.codes/">
+    <meta name="application-name" content="AmiPYQ | Home" />
+    <meta name="apple-mobile-web-app-title" content="AmiPYQ | Home" />
+    <meta name="summary" content="An open source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world." />
+    <!--For Dark/Light mode Toggle-->
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="assets/css/preloader.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="assets/images/favicon.png" type="image/x-png">
+    <!-- Font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <script defer src="./assets/js/dynamicTitle.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M11CMZ12Q"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-M11CMZ12Q');
+    </script>
+   <style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 30px 10px;
+    justify-items: center;
+  }
+
+  .folder-card {
+    text-decoration: none;
+    color: rgb(35, 169, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease;
+    padding: 10px;
+    border-radius: 12px;
+  }
+
+  .folder-card img {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 8px;
+  }
+
+  .folder-card span {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .folder-card:hover {
+    transform: scale(1.05);
+  }
+
+  /* ✅ Mobile view enhancements */
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .folder-card img {
+      width: 48px;
+      height: 48px;
+    }
+
+    .folder-card span {
+      font-size: 0.95rem;
+    }
+  }
+</style>
+ <style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* 3 columns on desktop */
+    gap: 30px;
+    justify-items: center;
+    margin-top: 50px;
+  }
+
+  .folder-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s;
+  }
+
+  .folder-card:hover {
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on mobile */
+      gap: 20px;
+    }
+  }
+</style>
+<style>
+    .section-title {
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 20px 0;
+  font-weight: 600;
+  color: #f1f1f1; /* or black depending on light/dark mode */
+}
+
+.section-title a {
+  color: inherit;
+  text-decoration: none;
+}
+.page-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 30px 0 20px;
+  transition: color 0.3s ease;
+}
+
+.page-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body.light-mode .page-title {
+  color: #000; /* black in light mode */
+}
+
+body.dark-mode .page-title {
+  color: #fff; /* white in dark mode */
+}
+
+</style>
+
+</head>
+
+<body class="no-scroll-preload">
+    <!-- loader -->
+    <div class="loader-container">
+        <div class="atom">
+            <div class="electron"></div>
+            <div class="electron-alpha"></div>
+            <div class="electron-omega"></div>
+        </div>
+    </div>
+
+    <!--Dynamic Nav Bar-->
+
+   
+    
+  
+                  
+    <main>
+        <section class="page-title" style="margin-top: 80px;" >
+    <a href="index.html" style="display: inline-block; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" >PYQs</a> | 
+    <a href="diploma.html" style="display: inline-block; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" >Diploma</a> |
+     <a href="diploma1.html" style="display: inline-block; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" >1st Year</a> | <span>2016</span>
+  </section>
+
+  <section class="grid-container">
+
+  <a href="https://drive.google.com/open?id=1nNFTRzBEQXWce2TyNUfpRkI-AMBl1LEc&usp=drive_copy" class="folder-card"> 
+    <img src="https://img.icons8.com/fluency/48/pdf.png"/>
+    <span>Environmental Studies (EVS101 - UC)</span>
+  </a>
+
+  <a href="https://drive.google.com/open?id=1pqgIOHFiapm8EywVBe-j-Yo8LMts4_Qy&usp=drive_copy" class="folder-card"> 
+    <img src="https://img.icons8.com/fluency/48/pdf.png"/>
+    <span>Environmental Studies (EVS101 - UC)</span>
+  </a>
+
+  <a href="https://drive.google.com/open?id=1nZJzvWbXpN96p0QdrVKupk6fNnY5Rf3e&usp=drive_copy" class="folder-card"> 
+    <img src="https://img.icons8.com/fluency/48/pdf.png"/>
+    <span>Environmental Studies-II (EVS102 - UC)</span>
+  </a>
+
+  <a href="https://drive.google.com/open?id=1j3-zLdURfFhD7RxUY-Jb_xB5MQqCTk00&usp=drive_copy" class="folder-card"> 
+    <img src="https://img.icons8.com/fluency/48/pdf.png"/>
+    <span>Environmental Studies-II (EVS102 - UC)</span>
+  </a>
+
+  <a href="https://drive.google.com/open?id=1jOQ4Lqidvlu5KxOEHq1efLcP06Q7lhkk&usp=drive_copy" class="folder-card"> 
+    <img src="https://img.icons8.com/fluency/48/pdf.png"/>
+    <span>Environmental Studies-III (EVS103 - UC)</span>
+  </a>
+
+  <a href="https://drive.google.com/open?id=1zChyYoSbiuH08U0wos6CnzsUjOEJg2he&usp=drive_copy" class="folder-card"> 
+    <img src="https://img.icons8.com/fluency/48/pdf.png"/>
+    <span>Environmental Studies-III (EVS103 - UC)</span>
+  </a>
+
+  <a href="https://drive.google.com/open?id=1AWSHW9EowteEDfqlnTbDL6vy19VW8b1j&usp=drive_copy" class="folder-card"> 
+    <img src="https://img.icons8.com/fluency/48/pdf.png"/>
+    <span>Effective Written Communication (BC201)</span>
+  </a>
+
+  <a href="https://drive.google.com/open?id=1W3n5MYzF1q2MR6XcQgbxuf3G4S27CSpU&usp=drive_copy" class="folder-card"> 
+    <img src="https://img.icons8.com/fluency/48/pdf.png"/>
+    <span>Effective Written Communication (BC201 - UC)</span>
+  </a>
+
+  <a href="https://drive.google.com/open?id=12MO8etIku85wPYl90Ee9t1sxVuPNzNr-&usp=drive_copy" class="folder-card"> 
+    <img src="https://img.icons8.com/fluency/48/pdf.png"/>
+    <span>Applied Physics-I (PHYS101 - ST)</span>
+  </a>
+
+  <a href="https://drive.google.com/open?id=1wnx4DTIVxVjqu4XA3-o9Tp2XgVWrQaWK&usp=drive_copy" class="folder-card"> 
+    <img src="https://img.icons8.com/fluency/48/pdf.png"/>
+    <span>Applied Physics-I for Life Science (PHYS105 - ST)</span>
+  </a>
+
+  <a href="https://drive.google.com/open?id=1ScFGwG-f8vZP9UUV2Jy8_WBOGxDrxoj-&usp=drive_copy" class="folder-card"> 
+    <img src="https://img.icons8.com/fluency/48/pdf.png"/>
+    <span>Applied Physics-II (PHYS113)</span>
+  </a>
+
+  <a href="https://drive.google.com/open?id=1MBWQwr7y_V-WxrL4SerAgq_IaILdtJNE&usp=drive_copy" class="folder-card"> 
+    <img src="https://img.icons8.com/fluency/48/pdf.png"/>
+    <span>Applied Physics-II for Life Science (PHYS121 - ST)</span>
+  </a>
+
+  <a href="https://drive.google.com/open?id=1J4bCKFwccKx4q5XhG3lvWFUxMD_DshnZ&usp=drive_copy" class="folder-card"> 
+    <img src="https://img.icons8.com/fluency/48/pdf.png"/>
+    <span>Applied Chemistry (CHEM101 - ST)</span>
+  </a>
+
+  <a href="https://drive.google.com/open?id=15txQi1uYPMzGffPkPTm--RAeUUMV9xlE&usp=drive_copy" class="folder-card"> 
+    <img src="https://img.icons8.com/fluency/48/pdf.png"/>
+    <span>Applied Chemistry (CHEM101)</span>
+  </a>
+
+</section>
+
+</main>
+  
+
+    <br><br><br>
+    <!-- Dynamic footer section -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G6D61F5TL4"></script>
+    <!-- Fetching our Google Tag Manager -->
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="assets/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
+    <script src="assets/js/particle.js"></script>
+
+</body>
+
+</html>
