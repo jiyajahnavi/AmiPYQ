@@ -1,51 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" light-mode="dark">
 <head>
-  <title>AmiPYQ | Diploma</title>
+  <title>AmiPYQ | Diploma 2nd Year</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- SEO Meta -->
-  <meta
-    name="description"
-    content="Download Amity University Diploma previous year question papers for free on AmiPYQ. Prepare effectively with authentic and organized exam papers."
-  />
-  <meta
-    name="keywords"
-    content="Amity Diploma PYQ, Diploma previous year question papers, Amity University diploma papers, AmiPYQ Diploma exam prep, free diploma question papers"
-  />
+  
+  <meta name="keywords" content="Amity Diploma 2nd year, diploma previous year question papers, free PYQ, AmiPYQ" />
+  <meta name="description" content="Access Amity University Diploma 2nd Year previous year question papers for free on AmiPYQ. Organized and authentic question papers to aid your exam preparation." />
+  
   <meta name="robots" content="index,follow" />
-  <meta name="googlebot" content="index,follow" />
+  <meta name="Googlebot" content="index,follow" />
   <meta name="AdsBot-Google" content="index,follow" />
-
+  
   <!-- Open Graph -->
   <meta property="og:site_name" content="AmiPYQ" />
-  <meta property="og:title" content="AmiPYQ | Diploma PYQs" />
-  <meta
-    property="og:description"
-    content="Access Amity University Diploma previous year question papers free download on AmiPYQ to boost your exam preparation."
-  />
+  <meta property="og:title" content="AmiPYQ | Diploma 2nd Year PYQs" />
+  <meta property="og:description" content="Download Diploma 2nd Year previous year question papers for Amity University on AmiPYQ." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://amipyq.in/diploma.html" />
+  <meta property="og:url" content="https://amipyq.in/diploma-2nd-year.html" />
   <meta property="og:image" content="https://amipyq.in/assets/images/diploma-preview.png" />
-
+  
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="AmiPYQ | Diploma PYQs" />
-  <meta
-    name="twitter:description"
-    content="Free Amity Diploma previous year question papers available for download at AmiPYQ."
-  />
+  <meta name="twitter:title" content="AmiPYQ | Diploma 2nd Year PYQs" />
+  <meta name="twitter:description" content="Free Amity Diploma 2nd Year previous year question papers at AmiPYQ." />
   <meta name="twitter:image" content="https://amipyq.in/assets/images/diploma-preview.png" />
   <meta name="twitter:site" content="@amipyq" />
-
+  
   <!-- Application Name -->
   <meta name="application-name" content="AmiPYQ" />
-  <meta name="apple-mobile-web-app-title" content="AmiPYQ | Diploma" />
-
+  <meta name="apple-mobile-web-app-title" content="AmiPYQ | Diploma 2nd Year" />
+  
   <!-- Favicon -->
   <link id="favicon" rel="shortcut icon" href="assets/images/favicon.png" type="image/x-png" />
-
+  
   <!-- Stylesheets -->
   <link
     rel="stylesheet"
@@ -64,12 +52,12 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
   />
-
+  
   <!-- Scripts -->
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
   <script defer src="./assets/js/dynamicTitle.js"></script>
-
+  
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-M11CMZ12Q"></script>
   <script>
@@ -80,17 +68,18 @@
     gtag("js", new Date());
     gtag("config", "G-M11CMZ12Q");
   </script>
-
+  
   <!-- Page Specific Styles -->
   <style>
+    /* Two-column grid container */
     .grid-container {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(5 , 1fr);
       gap: 30px;
       padding: 30px 10px;
       justify-items: center;
     }
-
+    /* Folder card style */
     .folder-card {
       text-decoration: none;
       color: rgb(35, 169, 247);
@@ -101,35 +90,57 @@
       padding: 10px;
       border-radius: 12px;
     }
-
     .folder-card img {
       width: 55px;
       height: 55px;
       margin-bottom: 8px;
     }
-
     .folder-card span {
       font-size: 1rem;
       font-weight: 500;
       text-align: center;
     }
-
     .folder-card:hover {
       transform: scale(1.05);
     }
 
-    /* Mobile view */
-    @media (max-width: 600px) {
-      .grid-container {
-        grid-template-columns: 1fr;
+    /* Five-column grid container for larger displays */
+    .grid-container-wide {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 30px;
+      justify-items: center;
+      margin-top: 50px;
+    }
+    .folder-card-wide {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: inherit;
+      text-decoration: none;
+      font-weight: bold;
+      transition: transform 0.2s;
+    }
+    .folder-card-wide:hover {
+      transform: scale(1.1);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .grid-container-wide {
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
       }
-
+    }
+    @media (max-width: 600px) {
+      .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
       .folder-card img {
         width: 48px;
         height: 48px;
       }
-
       .folder-card span {
         font-size: 0.95rem;
       }
@@ -158,7 +169,7 @@
     </div>
     <center>
         <!-- Home Section -->
-        <div class="text col-sm-6" style="margin-top: 140px; "> <a href="index.html" style="color: inherit; text-decoration: none;display: inline-block; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">PYQs</a> | <span class="header">Diploma</span>
+        <div class="text col-sm-6" style="margin-top: 190px; "> <a href="index.html" style="color: inherit; text-decoration: none;display: inline-block; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">PYQs</a> | <a href="diploma.html"style="color: inherit; text-decoration: none;display: inline-block; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'" >Diploma</a> | <span class="header">2nd Year</span>
             <div class="center">
               
                 <br/>
@@ -170,20 +181,40 @@
 
                      
     <main>
-  <section class="grid-container">
-    <a href="diploma1.html" class="folder-card">
-      <img src="https://img.icons8.com/fluency/48/folder-invoices.png"/>
-      <span>1st Year</span>
-    </a>
-    <a href="diploma2.html" class="folder-card">
-      <img src="https://img.icons8.com/fluency/48/folder-invoices.png"/>
-      <span>2nd Year</span>
-    </a>
-    <a href="diploma3.html" class="folder-card">
-      <img src="https://img.icons8.com/fluency/48/folder-invoices.png"/>
-      <span>3rd Year</span>
-    </a>
+  <section class="grid-container" style="margin-top: -20PX;" >
    
+    <a href="diploma22016.html" class="folder-card">
+      <img src="https://img.icons8.com/fluency/48/folder-invoices.png"/>
+      <span>2016</span>
+    </a>
+     <a href="404.html" class="folder-card">
+      <img src="https://img.icons8.com/fluency/48/folder-invoices.png"/>
+      <span>2017</span>
+    </a>
+     <a href="diploma22018.html" class="folder-card">
+      <img src="https://img.icons8.com/fluency/48/folder-invoices.png"/>
+      <span>2018</span>
+    </a>
+     <a href="diploma22019.html" class="folder-card">
+      <img src="https://img.icons8.com/fluency/48/folder-invoices.png"/>
+      <span>2019</span>
+    </a>
+     <a href="diploma22021.html" class="folder-card">
+      <img src="https://img.icons8.com/fluency/48/folder-invoices.png"/>
+      <span>2021</span>
+    </a>
+     <a href="diploma22022.html" class="folder-card">
+      <img src="https://img.icons8.com/fluency/48/folder-invoices.png"/>
+      <span>2022</span>
+    </a>
+     <a href="diploma22023.html" class="folder-card">
+      <img src="https://img.icons8.com/fluency/48/folder-invoices.png"/>
+      <span>2023</span>
+    </a>
+    <a href="diploma22024.html" class="folder-card">
+      <img src="https://img.icons8.com/fluency/48/folder-invoices.png"/>
+      <span>2024</span>
+    </a>
   </section>
 </main>
   
