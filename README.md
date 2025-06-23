@@ -1,4 +1,9 @@
-![Amipyq Logo](assets/logo.png)
+<p align="center">
+  <img src="assets/logo.png" alt="Amipyq Logo" />
+</p>
+
+  
+
 # 📚 AmiPYQ – Your Ultimate College PYQ Archive for Amity University
 
 Welcome to **AmiPYQ**, the go-to platform for Amity University students to easily access 
@@ -15,6 +20,56 @@ simplicity and community spirit, Amipyq helps every student prepare effectively 
 - 🔍 Simple and intuitive interface to quickly find the papers you need  
 - 📱 Fully responsive design optimized for desktops, tablets, and mobiles  
 - 🎨 Clean, modern UI for a smooth browsing experience
+
+---
+## 🖼️ Project Snapshots
+
+### 📱 Home Page
+| Dark Mode | Light Mode |
+|-----------|------------|
+| ![Dark Mode](assets/home-dark.png) | ![Light Mode](assets/home-light.png) |
+
+### 🎓 B.Tech Page
+
+| Dark Mode | Light Mode |
+|-----------|------------|
+| ![BTech Dark](assets/btech-dark.png) | ![BTech Light](assets/year.png) |
+
+### 📘 Diploma 1st Year Page
+
+| Dark Mode | Light Mode |
+|-----------|------------|
+| ![Diploma Dark](assets/diploma-dark.png) | ![Diploma Light](assets/diploma1styr.png) |
+
+### 📂 PYQ Page
+
+| Dark Mode | Light Mode |
+|-----------|------------|
+| ![PYQ Dark](assets/pyq-dark.png) | ![PYQ Light](assets/pyq.png) |
+
+### ℹ️ About Page
+
+| Dark Mode | Light Mode |
+|-----------|------------|
+| ![About Dark](assets/about.png) | ![About Light](assets/about-light.png) |
+
+
+### 🤝 Contributor Page
+
+| Dark Mode | Light Mode |
+|-----------|------------|
+| ![Contributor Dark](assets/contributor.png) | ![Contributor Light](assets/contributor-light.png) |
+
+### 🤝 Testimonial Page
+
+| Dark Mode | Light Mode |
+|-----------|------------|
+| ![Contributor Dark](assets/testimonial.png) | ![Contributor Light](assets/testimonial-light.png) |
+
+
+| Contact Page | How to Contribute |
+|-----------|------------|
+| ![Contact Dark](assets/contact.png) | ![Contact Light](assets/howtocontribute.png) |
 
 ---
 
