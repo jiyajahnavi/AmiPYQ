@@ -2,7 +2,8 @@
   <img src="assets/logo.png" alt="Amipyq Logo" />
 </p>
 
-  
+[🌐 Visit Website](https://amipyq.com/)
+
 
 # 📚 AmiPYQ – Your Ultimate College PYQ Archive for Amity University
 
@@ -74,4 +75,7 @@ simplicity and community spirit, Amipyq helps every student prepare effectively 
 ---
 
 ## 📱 Contact
+
+-🌐 Website: [amipyq.com](https://amipyq.com/)
+
 -📩 If you’d like to contribute, share PYQs, or collaborate — feel free to email at amipyq@gmail.com
