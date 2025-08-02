@@ -21,6 +21,7 @@ simplicity and community spirit, Amipyq helps every student prepare effectively 
 - 🔍 Simple and intuitive interface to quickly find the papers you need  
 - 📱 Fully responsive design optimized for desktops, tablets, and mobiles  
 - 🎨 Clean, modern UI for a smooth browsing experience
+- 📚Video lectures/playlists for last minute studies and amity faculty lectures.
 
 ---
 ## 🖼️ Project Snapshots
